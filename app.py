@@ -268,7 +268,7 @@ def handle_message(event):
           },
           {
             "type": "text",
-            "text": "曲徑通幽，遠塵歸野。沿著鄉道而來，讓城市的喧囂漸行漸遠，只需一步，便能抵達心之所向",
+            "text": "曲徑通幽，遠塵歸野。沿著鄉道而來，讓城市的喧囂漸行漸遠，只需一步，便能抵達心之所向。",
             "wrap": True,
             "size": "xs"
           }
@@ -394,7 +394,7 @@ def handle_message(event):
                     messages=[FlexMessage(alt_text='探尋鄉道',contents=FlexContainer.from_json(line_flex_str))]
                 )
             ) 
-        elif text =='預約一場漫遊':
+        elif text =='預約一場慢旅':
             line_flex_json = {
   "type": "bubble",
   "size": "mega",
@@ -415,7 +415,7 @@ def handle_message(event):
     "contents": [
       {
         "type": "text",
-        "text": "預約一場漫遊",
+        "text": "預約一場慢旅",
         "weight": "bold",
         "size": "xl",
         "align": "center"
@@ -494,7 +494,7 @@ def handle_message(event):
             line_bot_api.reply_message(
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
-                    messages=[FlexMessage(alt_text='預約一場漫遊',contents=FlexContainer.from_json(line_flex_str))]
+                    messages=[FlexMessage(alt_text='預約一場慢旅',contents=FlexContainer.from_json(line_flex_str))]
                 )
             )
         elif text =='分館拾光':
