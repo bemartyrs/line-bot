@@ -723,7 +723,7 @@ def handle_message(event):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "#和式乳膠標準床墊",
+                    "text": "#雙人彈簧床",
                     "color": "#ebebeb",
                     "size": "sm",
                     "flex": 0,
