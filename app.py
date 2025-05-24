@@ -2765,7 +2765,7 @@ def handle_message(event):
         "contents": [
           {
             "type": "image",
-            "url": "https://liveyilan.com/wp-content/uploads/2025/04/2-new.png",
+            "url": "https://lihi2.com/m1tUu",
             "size": "full",
             "aspectMode": "cover",
             "aspectRatio": "2:3",
@@ -2773,7 +2773,7 @@ def handle_message(event):
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://liveyilan.com/wp-content/uploads/2025/04/2-new.png"
+              "uri": "https://lihi2.com/m1tUu"
             }
           },
           {
@@ -2805,7 +2805,7 @@ def handle_message(event):
         "contents": [
           {
             "type": "image",
-            "url": "https://liveyilan.com/wp-content/uploads/2025/04/3.png",
+            "url": "https://lihi2.com/hudqo",
             "size": "full",
             "aspectMode": "cover",
             "aspectRatio": "2:3",
@@ -2813,7 +2813,7 @@ def handle_message(event):
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://liveyilan.com/wp-content/uploads/2025/04/3.png"
+              "uri": "https://lihi2.com/hudqog"
             }
           },
           {
