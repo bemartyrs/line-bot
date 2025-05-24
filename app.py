@@ -2813,7 +2813,7 @@ def handle_message(event):
             "action": {
               "type": "uri",
               "label": "action",
-              "uri": "https://lihi2.com/hudqog"
+              "uri": "https://lihi2.com/hudqo"
             }
           },
           {
