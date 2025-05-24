@@ -400,13 +400,13 @@ def handle_message(event):
   "size": "mega",
   "hero": {
     "type": "image",
-    "url": "https://static.owlting.com/booking/image/h/9b1e91af-ca77-438d-bc38-5726214b9872/images/mlvUicVMjmILrhHVCszY7voZpLh9W7aWKuiKhPZv.jpeg",
+    "url": "https://liveyilan.com/wp-content/uploads/2025/04/進入官網-2.png",
     "size": "full",
     "aspectRatio": "2:2",
     "aspectMode": "cover",
     "action": {
       "type": "uri",
-      "uri": "https://line.me/"
+      "uri": "https://liveyilan.com/countryroad/"
     }
   },
   "body": {
@@ -458,8 +458,8 @@ def handle_message(event):
             "type": "button",
             "action": {
               "type": "message",
-              "label": "私訊人工預約",
-              "text": "#私訊人工預約-鄉"
+              "label": "包棟方案說明",
+              "text": "#包棟方案說明"
             }
           }
         ]
@@ -479,9 +479,9 @@ def handle_message(event):
           {
             "type": "button",
             "action": {
-              "type": "uri",
-              "label": "官方網站",
-              "uri": "https://liveyilan.com/countryroad/"
+              "type": "message",
+              "label": "私訊人工預約",
+              "text": "#私訊人工預約-鄉"
             }
           }
         ]
@@ -505,11 +505,7 @@ def handle_message(event):
     "url": "https://static.owlting.com/booking/image/h/d1afba1c-30f3-423c-9b65-a6922af450fe/images/w0U89mPqW7ukKc0m6W4nK3kAulIqpwHUo01sGChJ.jpeg",
     "size": "full",
     "aspectRatio": "2:2",
-    "aspectMode": "cover",
-    "action": {
-      "type": "uri",
-      "uri": "https://line.me/"
-    }
+    "aspectMode": "cover"
   },
   "body": {
     "type": "box",
@@ -2756,7 +2752,7 @@ def handle_message(event):
                     messages=[FlexMessage(alt_text='空間介紹',contents=FlexContainer.from_json(line_flex_str))]
                 )
             )
-        elif text =='#測試-優惠方案說明flex':
+        elif text =='#包棟方案說明':
             line_flex_json = {
   "type": "carousel",
   "contents": [
@@ -2846,6 +2842,6 @@ def handle_message(event):
             line_bot_api.reply_message(
                 ReplyMessageRequest(
                     reply_token=event.reply_token,
-                    messages=[FlexMessage(alt_text='優惠方案說明',contents=FlexContainer.from_json(line_flex_str))]
+                    messages=[FlexMessage(alt_text='包棟方案說明',contents=FlexContainer.from_json(line_flex_str))]
                 )
             )
