@@ -2779,6 +2779,22 @@ def handle_message(event):
               "label": "action",
               "uri": "https://liveyilan.com/wp-content/uploads/2025/04/2-new.png"
             }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "👉點我看包棟溫馨小提醒",
+              "text": "#包棟溫馨小提醒"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "👉點我看官網資訊",
+              "uri": "https://liveyilan.com/countryroad/"
+            }
           }
         ],
         "paddingAll": "0px"
@@ -2802,6 +2818,22 @@ def handle_message(event):
               "type": "uri",
               "label": "action",
               "uri": "https://liveyilan.com/wp-content/uploads/2025/04/3.png"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "message",
+              "label": "👉點我看包棟溫馨小提醒",
+              "text": "#包棟溫馨小提醒"
+            }
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "uri",
+              "label": "👉點我看官網資訊",
+              "uri": "https://liveyilan.com/countryroad/"
             }
           }
         ],
